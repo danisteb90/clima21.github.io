@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
+  <!--Swipper CSS-->
+  <link rel="stylesheet" href="app/scss/swiper-bundle.min.css">
+  <title>Frontend Mentor | Easybank landing page</title>
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="overlay has-fade">
+      
+    </div>
+    <nav class="flex flex-jc-sb flex-ai-c container">
+      <a href="/" class="header__logo">
+        <img src="images/img-clima21/Logo CLima 21-2022.png" alt="EasyBank">
+      </a>
+
+      <a id="btnHamburguer" href="#" class="header__toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      
+      <div class="header__links hide-for-mobile">
+        <a href="#">Inicio</a><a href="#">Nosotros</a><a href="#">Servicios</a><a href="#">Clientes</a>
+      </div>
+
+      <a href="#" class="button header__cta hide-for-mobile">Contacto</a>
+    </nav>
+
+    <div class="header__menu has-fade">
+      <a href="#">Inicio</a><a href="#">Nosotros</a><a href="#">Servicios</a><a href="#">Clientes</a>
+    </div>
+
+  </header>
+
+  <section class="hero">
+    <div class="hero__image">
+      <h1>
+        Servicio técnico para tu oficina o empresa <span>24/7</span> 
+      </h1>
+      <a href="#" class="button hero__cta">Servicio de Emergencia</a>
+    </div>
+  </section>
+
+  <section class="hero2">
+    <div class="hero2__image">
+
+    </div>
+    <div class="hero2__text">
+      <h1 class="hero2__text__title">Clima 21 es la empresa a la cual debe llamar para todas sus necesidades de reparación de aire acondicionado.</h1>
+      <p class="hero2__text__content">Sabemos que los clientes quieren contratar una empresa que muestre integridad y buenas prácticas acorde a las necesidades de los clientes.</p>
+    </div>
+  </section>
+
+  <div class="wrapper">
+    <div class="container1">
+      <i class="fa-solid fa-users-line fa-flip" style="--fa-animation-duration: 3s; --fa-animation-iteration-count: 1"></i>
+      <span class="num" data-val="80">00</span>
+      <span class="text">Clientes Satisfechos</span>
+    </div>
+    <div class="container1">
+      <i class="fa-solid fa-temperature-arrow-down fa-flip" style="--fa-animation-duration: 3s; --fa-animation-iteration-count: 1"></i>
+      <span class="num" data-val="150">000</span>
+      <span class="text">Proyectos Realizados</span>
+    </div>
+    <div class="container1">
+      <i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s; --fa-animation-iteration-count: 1"></i>
+      <span class="num" data-val="10">00</span>
+      <span class="text">Marcas Aliadas</span>
+    </div>
+  </div>
+
+  <div class="slide-title">
+    <h1 class="slide-title1">Productos y Servicios</h1>
+  </div>
+
+  <div class="slide-body">
+    <div class="slide-container2 swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/img-clima21/hvac9.jpg" alt="img1" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mantenimiento de Aire acondicionado</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+              <button class="button">Ver Más</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/img-clima21/hvac6.jpg" alt="img1" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mantenimiento de Aire acondicionado</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+              <button class="button">Ver Más</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/img-clima21/hvac7.jpg" alt="img1" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mantenimiento de Aire acondicionado</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+              <button class="button">Ver Más</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/img-clima21/background 2.jpg" alt="img1" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mantenimiento de Aire acondicionado</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+              <button class="button">Ver Más</button>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/d5142eb2b9.js" crossorigin="anonymous"></script>
+<!--Swipper JS-->
+<script src="app/js/swiper-bundle.min.js"></script>
+<script src="app/js/script.js"></script>
+</html>
